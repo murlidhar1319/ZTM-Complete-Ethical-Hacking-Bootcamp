@@ -1,0 +1,71 @@
+
+# Information Gathering / Reconnaissance ;
+    -> First step of ethical hacking
+    -> Collecting Information about the target, Active or Passive
+    -> 
+
+
+
+# Basic Scan;
+
+-> ping google.com   ; IP address of the target
+
+-> nslookup facebook.com   | ping facebook.com
+
+-> https://ipinfo.info/html/ip_checker.php   ; A website which gives Information about the target
+
+-> whois facebook.com   ; Much Information about the target
+
+->
+
+
+
+# Deep Scan;
+
+-> whatweb   ; Initial command with some help
+
+-> whatweb -h   ; Get help with whatweb tool
+
+-> whatweb facebook.com /  whatweb facebook.com -v   ; Normal scan, can be done on any website, prefer verbose command
+
+-> 
+
+
+
+# Aggressive Scan;
+    -> Permission required
+
+-> ifconfig   ; Range of IP address
+
+-> whatweb 192.168.43.1-192.168.43.255 --aggression 3 -v   ; Attack with aggression level 3
+
+-> whatweb 192.168.43.1-192.168.43.255 -a 3 -v --no-errors   ; Attack with aggression level 3 with verbose with no-errors 
+
+-> whatweb -h   ; Get help with more commands
+
+-> whatweb 192.168.43.1-192.168.43.255 -a 3 -v --no-errors --log-verbose=whatweb1scan   ; Attack with aggression level 3 with verbose with no-errors & save the logs into desired file
+
+-> 
+
+
+
+# Get E-mail addresses / usernames from its domain name
+
+-> theHarvester   ; Initial command with some help
+
+-> theHarvester -h   ; Help with theHarvester tool
+
+-> theHarvester -d facebook.com -b all   ; Search for domain facebook.com from source (all plateforms or google.com or linkedin.com)  
+
+-> hunter.io   ; A Website, to get email addresses from its domain name
+
+-> 
+
+
+
+# 
+
+
+
+
+

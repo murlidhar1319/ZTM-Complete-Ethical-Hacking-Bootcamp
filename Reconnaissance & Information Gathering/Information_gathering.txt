@@ -1,12 +1,12 @@
 
-# Information Gathering / Reconnaissance ;
+# Information Gathering & Reconnaissance;
     -> First step of ethical hacking
     -> Collecting Information about the target, Active or Passive
     -> 
 
 
 
-# Basic Scan;
+# Obtaining IP Addresses;
 
 -> ping google.com   ; IP address of the target
 
@@ -14,13 +14,13 @@
 
 -> https://ipinfo.info/html/ip_checker.php   ; A website which gives Information about the target
 
--> whois facebook.com   ; Much Information about the target
+-> whois facebook.com   ; Much Information about the target, Physical address included
 
 ->
 
 
 
-# Deep Scan;
+# Whatweb Stealthy Scan;
 
 -> whatweb   ; Initial command with some help
 
@@ -32,7 +32,7 @@
 
 
 
-# Aggressive Scan;
+# Aggressive Website Technology Discovering on IP Range;
     -> Permission required
 
 -> ifconfig   ; Range of IP address
@@ -49,7 +49,7 @@
 
 
 
-# Get E-mail addresses / usernames from its domain name
+# Getting Emails with theHarvester and hunter.io;
 
 -> theHarvester   ; Initial command with some help
 
@@ -63,7 +63,24 @@
 
 
 
-# 
+# How to download tools online;
+
+-> git clone https://github.com/sherlock-project/sherlock / URL   ; clone any program/software from github repository in to desired folder of your PC
+
+-> 
+
+
+
+# Finding Usernames With Sherlock;
+
+-> 
+
+->
+
+
+
+
+
 
 
 

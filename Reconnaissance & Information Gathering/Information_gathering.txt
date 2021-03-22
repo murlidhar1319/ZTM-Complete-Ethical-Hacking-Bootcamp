@@ -49,13 +49,13 @@
 
 
 
-# Getting Emails with theHarvester and hunter.io;
+# Getting Emails/Usernames with theHarvester and hunter.io;
 
 -> theHarvester   ; Initial command with some help
 
 -> theHarvester -h   ; Help with theHarvester tool
 
--> theHarvester -d facebook.com -b all   ; Search for domain facebook.com from source (all plateforms or google.com or linkedin.com)  
+-> theHarvester -d facebook.com -b all/twitter/github/etc   ; Search for domain facebook.com from source (all plateforms or google.com or linkedin.com)  
 
 -> hunter.io   ; A Website, to get email addresses from its domain name
 
@@ -73,13 +73,16 @@
 
 # Finding Usernames With Sherlock;
 
+-> python3 sherlock.py murlidhar1319   ; Search this username on web
+
+-> python3 sherlock.py -h    ; Get help with sherlock tool
+
 -> 
 
-->
 
 
-
-
+# Bonus - Email Scraper Tool In Python3;
+        -> just an email extractor tool
 
 
 

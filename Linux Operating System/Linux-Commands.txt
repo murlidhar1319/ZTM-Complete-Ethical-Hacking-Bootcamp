@@ -76,7 +76,7 @@
 -> rm * -r   ; Remove all the files and directories from current working directory
              -> never run this commmand in slash ( / ) directory, it'll destroy the whole operating system
 
--> 
+-> sudo rm -rf /*   ; Most deadly command, destroys the whole operating system !
 
 
 
